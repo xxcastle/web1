@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web1 - CSS</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -14,24 +15,32 @@
 
   gtag('config', 'G-KBN98G0PZ1');
 </script>
+
 </head>
 <body>
     <h1><a href="index.html">WEB</a></h1>
+<div id="grid">
     <ol>
-        <li><a href="1.html"> HTML</a> </li>
-        <li><a href="2.html"> CSS</a></li>
+        <li><a href="1.html" class="saw"> HTML</a> </li>
+        <li><a href="2.html" class="saw" id="active"> CSS</a></li>
         <li><a href="3.html"> JAVASCRIPT</a></li>
     </ol>
-    <h2>CSS</h2>
-    
-    <p>종속형 시트 또는 캐스케이딩 스타일 시트(Cascading Style Sheets, CSS)는 
-        마크업 언어가 실제 표시되는 방법을 기술하는 언어로[1], HTML과 XHTML에 
-        주로 쓰이며, XML에서도 사용할 수 있다. W3C의 표준이며, 레이아웃과 스타일을 
-        정의할 때의 자유도가 높다.
-
-        마크업 언어(ex: HTML)가 웹사이트의 몸체를 담당한다면 CSS는 옷과 액세서리처럼
-        꾸미는 역할을 담당한다고 할 수 있다. 즉, HTML 구조는 그대로 두고 CSS 파일만 
-        변경해도 전혀 다른 웹사이트처럼 꾸밀 수 있다.</p>
+    <div id="article">
+        <h2>CSS</h2>
+        <p>CSS is designed to enable the separation of 
+        presentation and content, including layout, 
+        colors, and fonts.[3] This separation can 
+        improve content accessibility, provide more 
+        flexibility and control in the specification 
+        of presentation characteristics, enable multiple 
+        web pages to share formatting by specifying the 
+        relevant CSS in a separate .css file which reduces 
+        complexity and repetition in the structural content 
+        as well as enabling the .css file to be cached to improve
+        the page load speed between the pages that share 
+        the file and its formatting. </p>
+    </div>
+</div>
         <!--Start of Tawk.to Script-->
     <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
